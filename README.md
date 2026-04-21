@@ -1,50 +1,67 @@
-# Welcome to your Expo app 👋
+# React Native Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A cross-platform mobile application built with **React Native**, featuring a modular layout and a comprehensive navigation system.
 
-## Get started
+## 📱 Features
 
-1. Install dependencies
+The application is structured with five primary views, ensuring a smooth user experience and intuitive flow:
 
-   ```bash
-   npm install
-   ```
+* **Home:** The landing hub of the application.
+* **Products:** A dedicated space to browse and view items.
+* **Profile:** User-specific settings and account information.
+* **About:** Information regarding the application and its purpose.
+* **Layout System:** A centralized layout wrapper to ensure consistent styling and navigation across all screens.
 
-2. Start the app
+## 🛠️ Tech Stack
 
-   ```bash
-   npx expo start
-   ```
+* **Framework:** [React Native](https://reactnative.dev/)
+* **Navigation:** React Navigation / Expo Router
+* **Styling:** StyleSheet
 
-In the output, you'll find options to open the app in a
+## 🚀 Getting Started
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Prerequisites
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* Node.js (LTS)
+* npm or yarn
 
-## Get a fresh project
+### Installation
 
-When you're ready, run:
-
+1. **Clone the repository:**
 ```bash
-npm run reset-project
+git clone [https://github.com/afakruha2003/expo-app.git](https://github.com/your-username/your-repo-name.git)
+cd your-repo-name
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. **Install dependencies:**
+```bash
+npm install
+```
 
-## Learn more
+3. **Start the application:**
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📂 Project Structure
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```text
+├── assets/          # Images and static files
+├── src/
+│   ├── screens/     # Page-level components
+│   │   ├── Home.js
+│   │   ├── Product.js
+│   │   ├── Profile.js
+│   │   └── About.js
+│   └── layout/      # Main layout wrapper
+├── App.js           # Entry point
+└── package.json
+```
 
-## Join the community
+## 🤝 Contributing
 
-Join our community of developers creating universal apps.
+Contributions, issues, and feature requests are welcome!
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
