@@ -29,8 +29,8 @@ The application is structured with five primary views, ensuring a smooth user ex
 
 1. **Clone the repository:**
 ```bash
-git clone [https://github.com/afakruha2003/expo-app.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+git clone [https://github.com/afakruha2003/expo-app.git]
+cd expo-app
 ```
 
 2. **Install dependencies:**
